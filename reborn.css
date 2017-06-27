@@ -5,7 +5,7 @@
   font-weight: normal;
   font-style: normal;
 
-  src: local('Open Sans Regular'), url('./reborn/400.woff') format('woff')
+  src: local('Open Sans Regular'), url('reborn/400.woff') format('woff')
 }
 
 @font-face {
@@ -13,7 +13,7 @@
   font-weight: normal;
   font-style: italic;
 
-  src: local('Open Sans Italic'), url('./reborn/400i.woff') format('woff')
+  src: local('Open Sans Italic'), url('reborn/400i.woff') format('woff')
 }
 
 @font-face {
@@ -21,7 +21,7 @@
   font-weight: bold;
   font-style: normal;
 
-  src: local('Open Sans Bold'), url('./reborn/700.woff') format('woff')
+  src: local('Open Sans Bold'), url('reborn/700.woff') format('woff')
 }
 
 @font-face {
@@ -29,7 +29,7 @@
   font-weight: bold;
   font-style: italic;
 
-  src: local('Open Sans Bold Italic'), url('./reborn/700i.woff') format('woff')
+  src: local('Open Sans Bold Italic'), url('reborn/700i.woff') format('woff')
 }
 
 html {
@@ -422,14 +422,14 @@ tt {
 
 #typora-quick-open {
   border: 1px solid #ddd;
-  background-color: #f8f8f8;
+  box-shadow: 0 0 10px #c0c0c0;
 }
 
-#typora-quick-open-item {
+.typora-quick-open-item {
   border-width: 1px;
   border-style: solid;
-  border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
-  background-color: #FAFAFA;
+  border-color: #fefefe #e5e5e5 #e5e5e5 #eee;
+  background-color: #fafafa;
 }
 
 /** focus mode */
@@ -501,11 +501,9 @@ h4.md-focus:before {
 
   vertical-align: inherit;
 
-  color: inherit;
   border: inherit;
   border-radius: inherit;
 
-  font-size: inherit;
   font-weight: inherit;
   line-height: inherit;
 }
