@@ -48,22 +48,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#write{
+#write {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 20px 30px 100px 30px;
+  padding: 50px 40px 100px 40px;
 }
 
 #write > ul:first-child,
-#write > ol:first-child{
+#write > ol:first-child {
   margin-top: 30px;
 }
 
-body > *:first-child {
+#write > *:first-child {
   margin-top: 0 !important;
 }
 
-body > *:last-child {
+#write > *:last-child {
   margin-bottom: 0 !important;
 }
 
@@ -316,7 +316,7 @@ tt {
   padding: .5rem 1rem;
 }
 
-.task-list{
+.task-list {
   padding-left: 0;
 }
 
@@ -373,22 +373,22 @@ tt {
   bottom: .375rem;
 }
 
-#write > h3.md-focus:before{
+#write > h3.md-focus:before {
   top: .375rem;
   left: -1.5625rem;
 }
 
-#write > h4.md-focus:before{
+#write > h4.md-focus:before {
   top: .285714286rem;
   left: -1.5625rem;
 }
 
-#write > h5.md-focus:before{
+#write > h5.md-focus:before {
   top: .285714286rem;
   left: -1.5625rem;
 }
 
-#write > h6.md-focus:before{
+#write > h6.md-focus:before {
   top: .285714286rem;
   left: -1.5625rem;
 }
@@ -411,7 +411,7 @@ tt {
   text-align: center;
 }
 
-.md-tag{
+.md-tag {
   color: inherit;
 }
 
@@ -437,7 +437,7 @@ tt {
   border-left-color: rgba(85, 85, 85, .12);
 }
 
-header, .context-menu, .megamenu-content, footer{
+header, .context-menu, .megamenu-content, footer {
   font-family: 'Segoe UI', 'Arial', sans-serif;
 }
 
@@ -489,7 +489,7 @@ h4.md-focus.md-heading:before {
 #write > h3.md-focus:before,
 #write > h4.md-focus:before,
 h3.md-focus:before,
-h4.md-focus:before{
+h4.md-focus:before {
   position: inherit;
   top:initial;
   left:initial;
