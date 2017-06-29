@@ -539,3 +539,28 @@ h4.md-focus:before {
 .md-toc-h6 .md-toc-inner {
   margin-left: 5em;
 }
+
+
+/* Source mode */
+#typora-source .CodeMirror-lines {
+  max-width: 1100px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+#typora-source .CodeMirror-linenumber {
+  right: 0;
+  visibility: visible;
+}
+
+.cm-s-typora-default pre.cm-header1:not(.cm-atom) *:not(.cm-overlay){
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.cm-s-typora-default pre.cm-header2:not(.cm-atom) *:not(.cm-overlay){
+  font-size: inherit;
+  line-height: inherit;
+}
