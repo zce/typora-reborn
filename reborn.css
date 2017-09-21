@@ -1,3 +1,32 @@
+:root {
+  --side-bar-bg-color: #fafbfe;
+  --control-text-color: #777;
+}
+
+/*
+:root {
+  --bg-color:  #363B40;
+  --side-bar-bg-color: #2E3033;
+  --text-color: #b8bfc6;
+  --code-block-bg-color: inherit; // #f8f8f8;
+
+  --item-hover-bg-color: #0a0d16;
+  --control-text-color: #b7b7b7;
+  --control-text-hover-color: #eee;
+  --window-border: 1px dashed #9b9b9b;
+
+  --active-file-bg-color: rgb(34, 34, 34);
+  --active-file-border-color: #8d8df0;
+
+  --primary-color: #a3d5fe;
+
+  --active-file-text-color: white;
+  --item-hover-bg-color: #70717d;
+  --item-hover-text-color: white;
+  --primary-color: #6dc1e7;
+}
+ */
+
 @include-when-export url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 
 @font-face {
@@ -37,6 +66,8 @@ html {
 }
 
 body {
+  overflow: hidden;
+
   color: #57676e;
 
   font-family: 'Open Sans', 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -49,7 +80,7 @@ body {
 }
 
 #write {
-  max-width: 1000px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 50px 40px 100px 40px;
 }
@@ -79,7 +110,7 @@ h5,
 h6 {
   position: relative;
 
-  margin-top: 2em;
+  margin-top: 2.5em;
   margin-bottom: 1em;
 
   cursor: text;
@@ -122,7 +153,7 @@ h1 {
 }
 
 h2 {
-   padding-bottom: .3em;
+  padding-bottom: .3em;
 
   border-bottom: 1px solid #eee;
 
@@ -146,7 +177,7 @@ h5 {
 h6 {
   color: #777;
 
-   font-size: 1em;
+  font-size: 1em;
 }
 
 p,
@@ -539,7 +570,6 @@ h4.md-focus:before {
 .md-toc-h6 .md-toc-inner {
   margin-left: 5em;
 }
-
 
 /* Source mode */
 #typora-source .CodeMirror-lines {
