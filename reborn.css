@@ -70,7 +70,7 @@ body {
 
   color: #57676e;
 
-  font-family: 'Open Sans', 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, 'Microsoft YaHei Light', sans-serif;
   line-height: 1.8;
 
   background-color: #fcfdff;
@@ -597,15 +597,17 @@ h4.md-focus:before {
 
 /* Export mode */
 
-.typora-export {
-  padding-top: 2em;
-  padding-bottom: 2em;
-  background: #e7eef2;
-}
+@media screen {
+  .typora-export {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: #e7eef2;
+  }
 
-.typora-export > #write {
-  border: 1px solid #c3ccd0;
-  border-radius: .25em;
-  background: #fff;
-  box-shadow: 0 1px 0 rgba(255,255,255,0), 0 0 1em rgba(0,0,0,.1);
+  .typora-export > #write {
+    border: 1px solid #c3ccd0;
+    border-radius: .25em;
+    background: #fff;
+    box-shadow: 0 1px 0 rgba(255,255,255,0), 0 0 1em rgba(0,0,0,.1);
+  }
 }
